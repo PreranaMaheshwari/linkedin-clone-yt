@@ -11,9 +11,9 @@ function App() {
       <Header />
 
       {/* App Body */}
-        {/* Sidebar */}
-        {/* Feed */}
-        {/* Widgets */}
+       {/* Sidebar */}
+       {/* Feed */}
+       {/* Widgets */}
     </div>
   );
 }

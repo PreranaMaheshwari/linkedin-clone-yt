@@ -5,6 +5,20 @@ function Header() {
   return (
     <div className='header'>
      <h1>This is the Header</h1>
+
+     <div className="header__left">
+        <img src="" alt=""/>
+
+        <div className="header__search">
+           <SearchIcon />
+            <input type="text" />
+        </div>
+
+     </div>
+
+     <div className="header__right">
+
+     </div>
     </div>
   )
 }
