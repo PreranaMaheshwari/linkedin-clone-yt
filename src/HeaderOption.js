@@ -1,12 +1,10 @@
 import React from 'react';
 import "./HeaderOption.css";
-import { AccountCircleIcon } from "@mui/icons-material/AccountCircle";
 
-function HeaderOption({ avatar, Icon, title }) {
+function HeaderOption({ Icon, title }) {
   return (
   <div className="headerOption"> 
        {Icon && <Icon className='headerOption__icon' />}
-       {AccountCircleIcon && <AccountCircleIcon className='headerOption__icon' src= {AccountCircleIcon} />}
        <h3 className="headerOption__title">{title}</h3>
     </div>
     );
