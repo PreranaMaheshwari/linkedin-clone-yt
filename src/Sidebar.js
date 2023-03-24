@@ -1,5 +1,5 @@
 import { Avatar } from '@mui/material';
-import React from 'react';
+import React from "react";
 import "./Sidebar.css";
 
 function Sidebar() {
@@ -8,12 +8,11 @@ function Sidebar() {
     <div className="sidebar__recentItem">
       <span className="sidebar__hash">#</span>
       <p>{topic}</p>
-
     </div>
   );
 
   return (
-  <div className="Sidebar">
+  <div className="sidebar">
     <div className="sidebar__top">
         <img src="https://d33wubrfki0l68.cloudfront.net/8d79b89491cf9ef958be1386776dc937d39266be/1a630/img/particle_background.jpg" alt=""/>
         <Avatar className="sidebar__avatar" />
@@ -38,6 +37,8 @@ function Sidebar() {
       {recentItem("reactjs")}
       {recentItem("design")}
       {recentItem("developer")}
+      {recentItem("CMF")}
+      {recentItem("Tech")}
     </div>
   </div>
   );
