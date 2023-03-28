@@ -38,7 +38,7 @@
     display: none;
 }
 
-.feed_inputOptions {
+.feed__inputOptions {
     display: flex;
     justify-content: space-evenly;
 }
